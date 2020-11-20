@@ -8,4 +8,4 @@ end
 
 start = 0                           # lower bound of the interval
 end_ = 20                            # upper bound of the interval
-num_step = 1000
+num_step = 100 # 1000000000

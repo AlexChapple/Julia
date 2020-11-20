@@ -20,8 +20,10 @@ function integrate()
 
     end
 
-    print(y)
+    print(round(y))
 
 end
 
 @time integrate()
+
+print(time.time)
