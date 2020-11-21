@@ -1,16 +1,18 @@
 ### Output file
 
 
-### Individual score
+### Individual scores (Out of 1)
 
-Integration score = 0.001390108274
-Integration time = 2.780216548
+Integration score = 0.9130578759816786
+Integration time = 25.397705982
 
-ODE Solver score =
-ODE Solver time =
+ODE Solver score = 1.0579925799491134
+ODE Solver time = 113.424834274
 
-root finding score =
-root finding time =
+Root finding score = 1.1012282301684004
+Root finding time = 0.294977923
 
 
-### Total Score
+### Total Score 
+
+Total Score = 1.0240928953663977

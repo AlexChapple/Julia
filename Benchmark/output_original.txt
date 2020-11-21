@@ -9,8 +9,8 @@ Integration time =
 ODE Solver score =
 ODE Solver time =
 
-root finding score =
-root finding time =
+Root finding score =
+Root finding time =
 
 
 ### Total Score

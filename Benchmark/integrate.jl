@@ -5,7 +5,7 @@ include("input.jl")
 ### Boundaries
 start = 0
 end_ = 5
-num_step = 10^7
+num_step = 10^8
 
 b = LinRange(start, end_, num_step)
 x_axis = collect(b)
@@ -33,12 +33,9 @@ function integrate()
 
     end
 
-    print(y)
-
 end
 
 t = @elapsed integrate()
-
 
 ### Calculates score
 
@@ -52,7 +49,7 @@ open("output.txt", "w+") do file
 
         if startswith(line, "Integration score")
 
-            score = (t / 400) * integration_w
+            score = (t / 27.816096493)
             println(file, "Integration score = " * string(score))
 
         elseif startswith(line, "Integration time")
@@ -68,3 +65,5 @@ open("output.txt", "w+") do file
     end
 
 end
+
+print("Integration took " * string(t) * " seconds. \n")
