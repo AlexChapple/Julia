@@ -55,13 +55,13 @@ open("output.txt", "w+") do file
 
             for score in score_lst
 
-                final_score += (0.2 * score)
+                final_score += score
                 # print(string(score) * " \n")
 
             end
 
-            println(file, "Total Score = " * string(final_score/0.6))
-            print("\nThe final score is " * string(final_score/0.6))
+            println(file, "Total Score = " * string(final_score * 1000))
+            print("\nThe final score is " * string(final_score * 1000))
 
         else
 

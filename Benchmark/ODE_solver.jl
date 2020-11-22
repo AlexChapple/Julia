@@ -74,7 +74,7 @@ open("output.txt", "w+") do file
 
         if startswith(line, "ODE Solver score")
 
-            score = (t / 107.207589565)
+            score = (106.9872198 / t)
             println(file, "ODE Solver score = " * string(score))
 
         elseif startswith(line, "ODE Solver time")

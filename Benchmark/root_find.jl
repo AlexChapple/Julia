@@ -60,7 +60,7 @@ open("output.txt", "w+") do file
 
         if startswith(line, "Root finding score")
 
-            score = (t / 0.26786266)
+            score = (0.259534311 / t)
             println(file, "Root finding score = " * string(score))
 
         elseif startswith(line, "Root finding time")

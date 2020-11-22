@@ -49,7 +49,7 @@ open("output.txt", "w+") do file
 
         if startswith(line, "Integration score")
 
-            score = (t / 27.816096493)
+            score = (27.653293395 / t)
             println(file, "Integration score = " * string(score))
 
         elseif startswith(line, "Integration time")
