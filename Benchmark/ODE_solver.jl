@@ -92,3 +92,4 @@ open("output.txt", "w+") do file
 end
 
 print("Integration took " * string(t) * " seconds. \n")
+

@@ -3,16 +3,16 @@
 
 ### Individual scores (Out of 1)
 
-Integration score = 1.0119770337343041
-Integration time = 27.326008865
+Integration score = 1.099031168027068
+Integration time = 25.161518799
 
-ODE Solver score = 0.9059607531641793
-ODE Solver time = 118.092554701
+ODE Solver score = 1.0174269963058935
+ODE Solver time = 105.154689416
 
-Root finding score = 0.9153080899554632
-Root finding time = 0.283548582
+Root finding score = 0.9930927192256801
+Root finding time = 0.261339456
 
 
 ### Total Score
 
-Total Score = 2833.2458768539464
+Total Score = 3109.5508835586415
